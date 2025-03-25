@@ -1,0 +1,23 @@
+select * from Preferencia_turno;
+
+select * from Usuario;
+
+select * from Concurso;
+
+select
+	p.id_perfil,
+    u.nome_usuario,
+    u.dias_de_estudo,
+    c.nome_concurso,
+    pt.nome_turno
+from
+	Perfil_de_estudo p
+join
+	Usuario u ON p.id_usuario = u.id_usuario
+join
+	Preferencia_turno pt ON u.preferencia_turno = pt.id_turno
+join
+	Concurso c ON u.concurso_preferencia =c.id_concurso
+;
+
+select * from Rotina;
