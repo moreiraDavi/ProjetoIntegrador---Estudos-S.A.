@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #e5f3fd;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  .registerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d6efd;
+    padding: 40px 30px;
+    border-radius: 16px;
+    width: 370px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 2.5em;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #0d6efd;
+    border-radius: 8px;
+  }
+  
+  .label {
+    text-align: left;
+    font-size: 0.85rem;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  .button {
+    width: 100%;
+    background-color: white;
+    color: #0d6efd;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .loginLink {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: white;
+  }
+  
+  .loginLink a {
+    color: rgb(208, 208, 208);
+    text-decoration: none;
+  }
