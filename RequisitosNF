@@ -1,7 +1,7 @@
 # 1. Requisitos Funcionais
 </br>
 
-## 1.2 Dashboard Inicial
+## 1.1 Dashboard Inicial
 
 
 -RF001: O sistema deve exibir uma saudação personalizada na tela inicial.
@@ -16,7 +16,7 @@
 
 
 
-## 1.1 Cadastro
+## 1.2 Cadastro
 
 
 - RF006: O sistema permite o cadastro do usuário , utilizando de e-mail , senha e informações básicas.
