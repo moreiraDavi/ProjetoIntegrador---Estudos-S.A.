@@ -1,0 +1,67 @@
+# 1. Requisitos Funcionais
+</br>
+
+## 1.1 Dashboard Inicial
+
+
+-RF001: O sistema deve exibir uma saudação personalizada na tela inicial.
+
+-RF002: O sistema deve apresentar um resumo do objetivo de estudo do usuário no centro da tela.
+
+-RF003: O sistema deve disponibilizar um botão visível para que o usuário crie uma nova agenda de estudos.
+
+-RF004: O sistema deve disponibilizar um botão visível que leva à tela "sobre nós" .
+
+-RF005: O sistema deve disponibilizar um botão visível para o usuário consultar concursos.
+
+
+
+## 1.2 Cadastro
+
+
+- RF006: O sistema permite o cadastro do usuário , utilizando de e-mail , senha e informações básicas.
+
+- RF007: O sistema permite login e logout do usuário.
+
+- RF008: O sistema permite que o usuário recorra à uma recuperação de senha.
+
+- RF009: O sistema exibe um botão permitindo que o usuário retorne à página de login.
+
+
+## 1.3 Gerenciamento de perfil
+
+- RF010: O usuário têm permissão para ver e alterar suas informações pessoais.
+
+  
+## 1.4 Planejamento de estudos
+
+- RF011: O sistema dá opções de estudo variadas ao usuário de acordo com suas preferências e concurso selecionado.
+
+- RF012: O sistema cria um cronograma de acordo com as preferências e o curso do usuário.
+
+- RF013: O cronograma de estudo é alterado em relação as horas estudadas pelo usuário no dia e pelas horas que foram estabelecidas pelo site.
+
+- RF014: O site deve alertar o usuário de seu cronograma com notificações ou lembretes.
+
+
+## 1.5 Adaptação pela Inteligência Artificial
+
+- RF015: O sistema deve acompanhar o usuário e registrar seu desempenho nas atividades propostas.
+
+- RF016: Com base nos resultados do usuário , a IA deve sugerir ajustes no cronograma.
+  
+## 1.6 Agenda Personalizada
+
+-RF017: O sistema exibe ao usuário uma agenda semanal contendo dias da semana e horários com as matérias programadas para estudo.
+
+-RF018: O sistema permite que o usuário gere uma nova agenda clicando em um botão específico, redefinindo o planejamento anterior.
+
+-RF019: O sistema permite que o usuário visualize informações de cada tarefa programada (ex: matéria, duração, horário) ao interagir com os itens da agenda.
+
+-RF020: O sistema contém uma barra de progresso para que o usuário acompanhe seu avanço.
+
+
+
+
+
+
