@@ -1,4 +1,4 @@
-import Link from "react-router-dom";
+import {Link} from "react-router-dom";
 import styles from "./Login.module.css";
 import { FaGoogle, FaFacebookF, FaApple } from "react-icons/fa";
 
